@@ -56,7 +56,7 @@ body {
 /*============= end home page  ===========*/
 
 /*============= apps free  ===============*/
-.apps-free {
+.apps {
     width: 80%;
     margin: auto;
     padding: 10px;
@@ -67,18 +67,18 @@ body {
     margin-bottom:75px; 
 }
 
-.apps-free  > img {
+.apps  > img {
     height: 110px;
     width: 115px;
 } 
-.apps-free  h3 {
+.apps  h3 {
     font-family: 'Open Sans', sans-serif;
 }
-.apps-free  p {
+.apps p {
     font-size: 13px;
 }
 
-.apps-free > a {
+.apps > a {
     padding: 7px 20px;
     font-size: 15px
 }
