@@ -1,0 +1,264 @@
+/*----  rest ------*/
+
+html,
+body {
+    background: #8e9eab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin: 0;
+    font-family: 'DroidArabicKufiRegular';
+    font-weight: normal;
+    font-style: normal;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*============= start home page  ===========*/
+ .log {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:#ef4769;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+ .log p {
+    padding: 20px
+ }
+
+.list , .list1 {
+    margin: 60px;
+}
+
+.colum-apps li {
+    text-align: center;
+    list-style: none;
+    padding: 15px;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+ 
+.colum-apps li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/*============= end home page  ===========*/
+
+/*============= apps free  ===============*/
+.apps-free {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-image: linear-gradient(to top, #e4e8ec 0, #fff 100%);
+    border-radius: 12px;
+    text-align: center;
+    color: #000;
+    margin-bottom:75px; 
+}
+
+.apps-free  > img {
+    height: 110px;
+    width: 115px;
+} 
+.apps-free  h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+.apps-free  p {
+    font-size: 13px;
+}
+
+.apps-free > a {
+    padding: 7px 20px;
+    font-size: 15px
+}
+
+/*============= end apps free   ===========*/
+
+/*============= groups   ===========*/
+.gruop-apps li {
+    text-align: center;
+    list-style: none;
+    padding: 15px;
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+ 
+.gruop-apps li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+/*=============  end groups   ===========*/
+
+/* ============= regestor=========*/
+.reg{
+   padding: 30px;
+    text-align: center;
+}
+.rtl{
+     direction: rtl;
+} 
+.rtl p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.rtl p span{
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 0px 10px;
+    background: #fc3;
+}
+hr{
+    width: 60%;
+   margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #FF5722;
+}
+
+.reg-img{
+
+    padding: 3px;
+}
+.reg-img > img{
+     width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: -14px 3px 11px -10px;
+
+}
+.btn-info{
+    color: #fff;
+    background-color: #de5b5b;
+    border-color: transparent;
+    padding: 14px 52px;
+    margin-top: 30px
+}
+/*============= end regestor =============*/
+
+
+/*============= final  =============*/
+
+
+.price{
+      direction: rtl;
+}
+
+
+.price h3{
+    background: #3c763d;
+    color: #fff;
+    padding: 9px;
+    width: 12%;
+    border: 2px solid #000;
+    border-radius: 14px;
+    font-size: 19px;
+}
+
+.price  p  {
+    font-size: 22px;
+
+}
+.photo{
+    padding-top: 30px;
+}
+.photo  >  img {
+    width: 40%;
+    border-radius: 20px;
+
+
+}
+
+#rabie{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/*============= end  final  =============*/
+
+footer {
+    font-size: 15px;
+    margin-top:5%;
+}
+footer > a {
+     color: #ef4769;
+}
+
+
+
+@media (max-width: 769px){
+    .list , .list1 {
+        margin: 40px
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+    .colum-apps li  {
+        width: 100%; 
+        margin-bottom: 20px
+    }
+    .apps-free {
+        width: 90%;
+    }
+    .gruop-apps li {
+        margin-top: 13px;
+    }
+    .price h3 {
+            width: 42%;
+    }
+    .photo  >  img{
+        width: 100%
+    }
+
+}
+
+
+.btn-danger {
+    background-color: #ffcd23;
+    border: none;
+    font-size: 30px;
+    padding: 6px 50px;
+    color: #000;
+}
+
+.btn-danger:hover {
+    color: #fff;
+}
+
+.form-rabie{
+       text-align: center;
+
+
+}
+ 
+.input-lg {
+    direction: rtl;
+}
+
+label {
+    direction: rtl;
+}
