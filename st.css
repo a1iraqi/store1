@@ -14,7 +14,37 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+/*============= apps  ===============*/
+.apps {
+    background-image: linear-gradient(to top, #072a77 0, #a398ff 100%);
+    color: #f8f8f8;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 75px;
+    border-radius: 12px;
+    text-align: center;
+}
 
+.apps  > img {
+    height: 110px;
+    width: 115px;
+    border: dotted 2px red;
+} 
+.apps  h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'DroidArabicKufiRegular';
+}
+.apps p {
+    font-size: 13px;
+}
+
+.apps > a {
+    padding: 7px 20px;
+    font-size: 15px
+}
+
+/*============= end apps   ===========*/
 
 /*============= start home page  ===========*/
  .log {
@@ -55,37 +85,7 @@ body {
 }
 /*============= end home page  ===========*/
 
-/*============= apps free  ===============*/
-.apps {
-    background-image: linear-gradient(to top, #072a77 0, #a398ff 100%);
-    color: #f8f8f8;
-    width: 80%;
-    margin: auto;
-    padding: 10px;
-    margin-bottom: 75px;
-    border-radius: 12px;
-    text-align: center;
-}
 
-.apps  > img {
-    height: 110px;
-    width: 115px;
-    border: dotted 2px red;
-} 
-.apps  h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'DroidArabicKufiRegular';
-}
-.apps p {
-    font-size: 13px;
-}
-
-.apps > a {
-    padding: 7px 20px;
-    font-size: 15px
-}
-
-/*============= end apps free   ===========*/
 
 /*============= groups   ===========*/
 .gruop-apps li {
@@ -192,9 +192,16 @@ hr{
     font-size: 30px;
 }
 
-
-
-
+.img.pngs {
+    height: 70px;
+    width: 70px;
+    zoom: 200%;
+}
+.pngs {
+    height: 70px;
+    width: 70px;
+    zoom: 200%;
+}
 
 
 
@@ -237,7 +244,6 @@ footer > a {
     }
 
 }
-
 
 .btn-danger {
     background-color: #ffcd23;
