@@ -57,14 +57,14 @@ body {
 
 /*============= apps free  ===============*/
 .apps {
+    background-image: linear-gradient(to top, #072a77 0, #a398ff 100%);
+    color: #f8f8f8;
     width: 80%;
     margin: auto;
     padding: 10px;
-    background-image: linear-gradient(to top, #e4e8ec 0, #fff 100%);
+    margin-bottom: 75px;
     border-radius: 12px;
     text-align: center;
-    color: #000;
-    margin-bottom:75px; 
 }
 
 .apps  > img {
