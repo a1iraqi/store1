@@ -70,9 +70,11 @@ body {
 .apps  > img {
     height: 110px;
     width: 115px;
+    border: dotted 2px red;
 } 
 .apps  h3 {
     font-family: 'Open Sans', sans-serif;
+    font-family: 'DroidArabicKufiRegular';
 }
 .apps p {
     font-size: 13px;
@@ -243,10 +245,12 @@ footer > a {
     font-size: 30px;
     padding: 6px 50px;
     color: #000;
+    border: dotted 2px red;
 }
 
 .btn-danger:hover {
     color: #fff;
+    border: dotted 2px #fff;
 }
 
 .form-rabie{
