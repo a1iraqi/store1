@@ -2,6 +2,8 @@
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *power by store - Abood aliraQi
+ *power by www.a1iraqi.com
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -13,15 +15,15 @@ body {
   margin: 0;
 }
 article,
-aside,
-details,
-figcaption,
-figure,
 footer,
 header,
 hgroup,
 main,
 menu,
+aside,
+details,
+figcaption,
+figure,
 nav,
 section,
 summary {
@@ -1514,7 +1516,8 @@ blockquote.pull-right small:before,
 blockquote.pull-right .small:before {
   content: '';
 }
-.blockquote-reverse footer:after,
+.blockquote-reverse 
+:after,
 blockquote.pull-right footer:after,
 .blockquote-reverse small:after,
 blockquote.pull-right small:after,
