@@ -209,8 +209,11 @@ hr{
 /*============= end  final  =============*/
 
 footer {
-    font-size: 15px;
-    margin-top:5%;
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 10px;
+     background: #000;
+    color: #fff;
 }
 footer > a {
      color: #ef4769;
@@ -230,7 +233,7 @@ footer > a {
         width: 100%; 
         margin-bottom: 20px
     }
-    .apps-free {
+    .apps {
         width: 90%;
     }
     .gruop-apps li {
